@@ -1,3 +1,19 @@
+# Important
+
+**THIS HAS NOT BEEN TESTED VERY MUCH! USE ON YOUR OWN RISK** - Yes, it could potentially delete tasks so make backups.
+
+
+
+This is a fork of [webmeisterei](https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior). All credits for good things should go there and to [matt-snider](https://github.com/matt-snider/todoist-taskwarrior) who initially made the tool.
+
+If it breaks or throws errors you can safely assume that it's because of my code - not theirs.
+
+I THINK this fork will allow you to map labels in todoist with tags in taskwarrior with the --map-tag argument.
+Also MAYBE updates done in taskwarrior are corrected synced to Todoist. However i have only done small tests and it might break 
+at any time.
+
+The rest of the README is directly forked "as is".
+
 # todoist-taskwarrior
 
 A tool for syncing Todoist tasks with Taskwarrior.

@@ -7,14 +7,14 @@ from todoist_taskwarrior import utils
 
 
 def test_priorities():
-    assert utils.parse_priority(1) == None
-    assert utils.parse_priority(2) == 'L'
-    assert utils.parse_priority(3) == 'M'
-    assert utils.parse_priority(4) == 'H'
+    assert utils.ti_priority_to_tw(1) == None
+    assert utils.ti_priority_to_tw(2) == 'L'
+    assert utils.ti_priority_to_tw(3) == 'M'
+    assert utils.ti_priority_to_tw(4) == 'H'
 
 def test_priorities_str():
-    assert utils.parse_priority('1') == None
-    assert utils.parse_priority('2') == 'L'
-    assert utils.parse_priority('3') == 'M'
-    assert utils.parse_priority('4') == 'H'
+    assert utils.ti_priority_to_tw('1') == None
+    assert utils.ti_priority_to_tw('2') == 'L'
+    assert utils.ti_priority_to_tw('3') == 'M'
+    assert utils.ti_priority_to_tw('4') == 'H'
 

@@ -24,7 +24,7 @@ def try_get_model_prop(m, key, default=None):
 
 """ Priorities """
 
-TI_PRIORITY_MAP = {1: None, 2: 'L', 3: 'M', 4: 'H'}
+TI_PRIORITY_MAP = {0: None, 1: None, 2: 'L', 3: 'M', 4: 'H'}
 
 def ti_priority_to_tw(priority):
     """ Converts a priority from Todoist to Taskwarrior.
